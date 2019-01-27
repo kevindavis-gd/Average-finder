@@ -1,9 +1,3 @@
-//Name:Kevin Davis
-//Course:CS1044, Spring 2018, Dr.Johnson
-/*Purpose:This program reads in numbers from a file, then outputs those numbers
-to a new file. it also prints out the  Maximum and Minimum numbers along
-with the Sum and Average of the numbers..*/
-
 #include <iostream>
 #include <fstream>
 //allows the use of strings
@@ -48,8 +42,6 @@ int main()
 		//for spacing
 		cout << endl;
 
-		outfile << "Name:Kevin Davis \n";
-		outfile << "Course:CS1044, Spring 2018, Dr.Johnson \n\n";
 		outfile << "Purpose:This program reads in numbers from a file, then \n";
 		outfile << "outputs those numbers to a new file. it also prints out \n";
 		outfile << "the  Maximum and Minimum numbers along with the Sum and \n";
